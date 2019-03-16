@@ -2,30 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96769eee-a07e-4e45-b2c9-72e587eaeca1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/swiper.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/05.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/06.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/man0.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/man01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/man02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/man03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/man05.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/t01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/t02.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/t03.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/img/t04.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/lunbo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/swiper.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/38cf2563-0cfe-4e1a-b0c2-1291f82edfa3.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/38cf2563-0cfe-4e1a-b0c2-1291f82edfa3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/38cf2563-0cfe-4e1a-b0c2-1291f82edfa3.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery.idcode.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.cookie.js" afterPath="$PROJECT_DIR$/static/js/jquery.cookie.js" />
+      <change beforePath="$PROJECT_DIR$/static/js/shops.js" afterPath="$PROJECT_DIR$/static/js/shops.js" />
+      <change beforePath="$PROJECT_DIR$/templates/Shop.html" afterPath="$PROJECT_DIR$/templates/Shop.html" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change beforePath="$PROJECT_DIR$/templates/land.html" afterPath="$PROJECT_DIR$/templates/land.html" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" afterPath="$PROJECT_DIR$/templates/register.html" />
       <change beforePath="$PROJECT_DIR$/ybw/models.py" afterPath="$PROJECT_DIR$/ybw/models.py" />
+      <change beforePath="$PROJECT_DIR$/ybw/urls.py" afterPath="$PROJECT_DIR$/ybw/urls.py" />
       <change beforePath="$PROJECT_DIR$/ybw/views.py" afterPath="$PROJECT_DIR$/ybw/views.py" />
+      <change beforePath="$PROJECT_DIR$/ybw1812/settings.py" afterPath="$PROJECT_DIR$/ybw1812/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,18 +38,18 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ybw1812@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="Ybw1812@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ybw1812@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="Ybw1812@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="ybw1812@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="Ybw1812@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="ybw1812: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="Ybw1812: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -72,53 +62,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ybw/views.py">
+      <file leaf-file-name="Shop.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Shop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="-39">
+              <caret line="87" column="30" lean-forward="true" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#2;n#div#3;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <file leaf-file-name="shops.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/js/shops.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
-              <caret line="1994" column="15" lean-forward="false" selection-start-line="1994" selection-start-column="15" selection-end-line="1994" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lunbo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/lunbo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ybw/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="land.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/land.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
-              <caret line="85" column="40" lean-forward="false" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
+            <state relative-caret-position="95">
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -137,7 +97,24 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>LBY</find>
+      <find>margin-left</find>
+      <find>shop</find>
+      <find>m-content-con1 .m-content-wrapx1 .m-content-women img</find>
       <find>.m-content-con1 .m-content-wrapx1 .m-content-women</find>
+      <find>swiper-container</find>
+      <find>.m-content-con1 .m-content-wrapx1 .m-content-man img</find>
+      <find>.m-content-con1 .m-content-wrapx1 .m-content-child img</find>
+      <find>body, html</find>
+      <find>code</find>
+      <find>js</find>
+      <find>form</find>
+      <find>DIV</find>
+      <find>div</find>
+      <find>p</find>
+      <find>.m-content-con1 .m-content-wrapx1 .m-content</find>
+      <find>style-con-inleft</find>
+      <find>.m-content-con1 .m-content-wrapx1 .m-content-women img</find>
+      <find>m-content-wrapx1</find>
       <find>DIVS</find>
     </findStrings>
   </component>
@@ -150,20 +127,21 @@
         <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/ybw1812/urls.py" />
         <option value="$PROJECT_DIR$/ybw/__init__.py" />
-        <option value="$PROJECT_DIR$/ybw1812/settings.py" />
         <option value="$PROJECT_DIR$/static/js/index_temp.js" />
-        <option value="$PROJECT_DIR$/ybw/urls.py" />
-        <option value="$PROJECT_DIR$/templates/land.html" />
-        <option value="$PROJECT_DIR$/templates/register.html" />
-        <option value="$PROJECT_DIR$/templates/Shop.html" />
         <option value="$PROJECT_DIR$/templates/SHOP_Cart.html" />
         <option value="$PROJECT_DIR$/static/css/swiper.css" />
         <option value="$PROJECT_DIR$/static/js/swiper.js" />
         <option value="$PROJECT_DIR$/static/js/lunbo0.js" />
-        <option value="$PROJECT_DIR$/ybw/models.py" />
-        <option value="$PROJECT_DIR$/ybw/views.py" />
         <option value="$PROJECT_DIR$/static/js/lunbo.js" />
+        <option value="$PROJECT_DIR$/ybw1812/settings.py" />
+        <option value="$PROJECT_DIR$/templates/land.html" />
+        <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/ybw/urls.py" />
+        <option value="$PROJECT_DIR$/ybw/views.py" />
+        <option value="$PROJECT_DIR$/ybw/models.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/Shop.html" />
+        <option value="$PROJECT_DIR$/static/js/shops.js" />
       </list>
     </option>
   </component>
@@ -178,6 +156,25 @@
     <option name="y" value="24" />
     <option name="width" value="1223" />
     <option name="height" value="601" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyUnresolvedReferencesInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -211,7 +208,7 @@
               <item name="ybw1812" type="b2602c69:ProjectViewProjectNode" />
               <item name="ybw1812" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ybw1812" type="b2602c69:ProjectViewProjectNode" />
@@ -232,18 +229,20 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/css" />
-      <recent name="$PROJECT_DIR$/templates" />
-      <recent name="$PROJECT_DIR$/ybw1812" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/css" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/ybw1812" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -307,10 +306,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1809145" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23426294" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33598408" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@ybw1812" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3916501" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16334662" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14023905" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17051792" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -331,16 +331,127 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ybw/views.py</url>
+          <line>49</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30400">
+          <caret line="1600" column="23" lean-forward="true" selection-start-line="1600" selection-start-column="23" selection-end-line="1600" selection-end-column="23" />
+          <folding>
+            <element signature="e#2770#2859#0#HTML" expanded="false" />
+            <element signature="e#2893#2943#0#HTML" expanded="false" />
+            <element signature="e#2989#3164#0#HTML" expanded="false" />
+            <element signature="e#3209#3381#0#HTML" expanded="false" />
+            <element signature="e#3419#3512#0#HTML" expanded="false" />
+            <element signature="e#3558#3594#0#HTML" expanded="false" />
+            <element signature="e#3615#3679#0#HTML" expanded="false" />
+            <element signature="e#3709#3864#0#HTML" expanded="false" />
+            <element signature="e#3897#3958#0#HTML" expanded="false" />
+            <element signature="e#4003#4185#0#HTML" expanded="false" />
+            <element signature="e#4222#4265#0#HTML" expanded="false" />
+            <element signature="e#4303#4342#0#HTML" expanded="false" />
+            <element signature="e#4374#4410#0#HTML" expanded="false" />
+            <element signature="e#4460#4638#0#HTML" expanded="false" />
+            <element signature="e#4690#4733#0#HTML" expanded="false" />
+            <element signature="e#4787#4877#0#HTML" expanded="false" />
+            <element signature="e#4933#4972#0#HTML" expanded="false" />
+            <element signature="e#5034#5453#0#HTML" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#50285#50291#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#a#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#a#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ybw/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/lunbo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ybw/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/land.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="85" column="40" lean-forward="false" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37886">
+          <caret line="1994" column="15" lean-forward="false" selection-start-line="1994" selection-start-column="15" selection-end-line="1994" selection-end-column="15" />
+          <folding>
+            <element signature="e#2770#2859#0#HTML" expanded="false" />
+            <element signature="e#2893#2943#0#HTML" expanded="false" />
+            <element signature="e#2989#3164#0#HTML" expanded="false" />
+            <element signature="e#3209#3381#0#HTML" expanded="false" />
+            <element signature="e#3419#3512#0#HTML" expanded="false" />
+            <element signature="e#3558#3594#0#HTML" expanded="false" />
+            <element signature="e#3615#3679#0#HTML" expanded="false" />
+            <element signature="e#3709#3864#0#HTML" expanded="false" />
+            <element signature="e#3897#3958#0#HTML" expanded="false" />
+            <element signature="e#4003#4185#0#HTML" expanded="false" />
+            <element signature="e#4222#4265#0#HTML" expanded="false" />
+            <element signature="e#4303#4342#0#HTML" expanded="false" />
+            <element signature="e#4374#4410#0#HTML" expanded="false" />
+            <element signature="e#4460#4638#0#HTML" expanded="false" />
+            <element signature="e#4690#4733#0#HTML" expanded="false" />
+            <element signature="e#4787#4877#0#HTML" expanded="false" />
+            <element signature="e#4933#4972#0#HTML" expanded="false" />
+            <element signature="e#5034#5453#0#HTML" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#50285#50291#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#a#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#a#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ybw/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -357,7 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -373,7 +483,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36841">
           <caret line="1939" column="18" lean-forward="true" selection-start-line="1939" selection-start-column="18" selection-end-line="1939" selection-end-column="18" />
-          <folding />
+          <folding>
+            <element signature="e#2770#2859#0#HTML" expanded="false" />
+            <element signature="e#2893#2943#0#HTML" expanded="false" />
+            <element signature="e#2989#3164#0#HTML" expanded="false" />
+            <element signature="e#3209#3381#0#HTML" expanded="false" />
+            <element signature="e#3419#3512#0#HTML" expanded="false" />
+            <element signature="e#3558#3594#0#HTML" expanded="false" />
+            <element signature="e#3615#3679#0#HTML" expanded="false" />
+            <element signature="e#3709#3864#0#HTML" expanded="false" />
+            <element signature="e#3897#3958#0#HTML" expanded="false" />
+            <element signature="e#4003#4185#0#HTML" expanded="false" />
+            <element signature="e#4222#4265#0#HTML" expanded="false" />
+            <element signature="e#4303#4342#0#HTML" expanded="false" />
+            <element signature="e#4374#4410#0#HTML" expanded="false" />
+            <element signature="e#4460#4638#0#HTML" expanded="false" />
+            <element signature="e#4690#4733#0#HTML" expanded="false" />
+            <element signature="e#4787#4877#0#HTML" expanded="false" />
+            <element signature="e#4933#4972#0#HTML" expanded="false" />
+            <element signature="e#5034#5453#0#HTML" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#50285#50291#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#a#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#a#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -381,9 +518,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding>
-            <marker date="1552549281136" expanded="false" signature="641:715" ph="import ..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -410,36 +545,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.html" />
-    <entry file="file://$PROJECT_DIR$/ybw1812/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="79" column="43" lean-forward="false" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ybw/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="79" lean-forward="true" selection-start-line="43" selection-start-column="79" selection-end-line="43" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Shop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="96" column="47" lean-forward="false" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/SHOP_Cart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2188">
@@ -447,13 +552,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://src:table:/1aa2e63a/38cf2563-0cfe-4e1a-b0c2-1291f82edfa3/ybw1812.swiper">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://src:table:/1aa2e63a/38cf2563-0cfe-4e1a-b0c2-1291f82edfa3/ybw1812.swiper" />
     <entry file="file://$PROJECT_DIR$/static/img/stella.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -486,28 +585,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/land.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="85" column="40" lean-forward="false" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/swiper.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="17459" lean-forward="false" selection-start-line="14" selection-start-column="17459" selection-end-line="14" selection-end-column="17459" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/1aa2e63a/38cf2563-0cfe-4e1a-b0c2-1291f82edfa3/ybw1812.swiper">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://table:/1aa2e63a/38cf2563-0cfe-4e1a-b0c2-1291f82edfa3/ybw1812.swiper" />
     <entry file="file://$PROJECT_DIR$/static/js/swiper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5">
@@ -515,13 +593,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/1aa2e63a/38cf2563-0cfe-4e1a-b0c2-1291f82edfa3/ybw1812.lby">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://table:/1aa2e63a/38cf2563-0cfe-4e1a-b0c2-1291f82edfa3/ybw1812.lby" />
     <entry file="file://$PROJECT_DIR$/static/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
@@ -536,36 +608,197 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ybw/models.py">
+    <entry file="file://$PROJECT_DIR$/ybw1812/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="185">
+          <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ybw/views.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/93022517-26f9-40db-839a-cd856c752310/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1aa2e63a/93022517-26f9-40db-839a-cd856c752310/Ybw1812.swiper">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1aa2e63a/93022517-26f9-40db-839a-cd856c752310/Ybw1812.swiper1">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/lunbo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        <state relative-caret-position="127">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/land.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="157" column="29" lean-forward="true" selection-start-line="157" selection-start-column="29" selection-end-line="157" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/swiper.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="13525" lean-forward="false" selection-start-line="14" selection-start-column="13509" selection-end-line="14" selection-end-column="13525" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1aa2e63a/93022517-26f9-40db-839a-cd856c752310/Ybw1812.Shop">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1aa2e63a/93022517-26f9-40db-839a-cd856c752310/Ybw1812.cShop">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1aa2e63a/93022517-26f9-40db-839a-cd856c752310/Ybw1812.User">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ybw/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="110" column="26" lean-forward="true" selection-start-line="110" selection-start-column="26" selection-end-line="110" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1aa2e63a/93022517-26f9-40db-839a-cd856c752310/Ybw1812.mShop">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ybw/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1aa2e63a/93022517-26f9-40db-839a-cd856c752310/Ybw1812.wShop">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="257" column="4" lean-forward="true" selection-start-line="257" selection-start-column="4" selection-end-line="257" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/1aa2e63a/93022517-26f9-40db-839a-cd856c752310/Ybw1812.detail">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ybw/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/shop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1444">
+          <caret line="76" column="16" lean-forward="true" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="1994" column="15" lean-forward="false" selection-start-line="1994" selection-start-column="15" selection-end-line="1994" selection-end-column="15" />
+        <state relative-caret-position="114">
+          <caret line="1951" column="50" lean-forward="false" selection-start-line="1951" selection-start-column="50" selection-end-line="1951" selection-end-column="50" />
+          <folding>
+            <element signature="e#2770#2859#0#HTML" expanded="false" />
+            <element signature="e#2893#2943#0#HTML" expanded="false" />
+            <element signature="e#2989#3164#0#HTML" expanded="false" />
+            <element signature="e#3209#3381#0#HTML" expanded="false" />
+            <element signature="e#3419#3512#0#HTML" expanded="false" />
+            <element signature="e#3558#3594#0#HTML" expanded="false" />
+            <element signature="e#3615#3679#0#HTML" expanded="false" />
+            <element signature="e#3709#3864#0#HTML" expanded="false" />
+            <element signature="e#3897#3958#0#HTML" expanded="false" />
+            <element signature="e#4003#4185#0#HTML" expanded="false" />
+            <element signature="e#4222#4265#0#HTML" expanded="false" />
+            <element signature="e#4303#4342#0#HTML" expanded="false" />
+            <element signature="e#4374#4410#0#HTML" expanded="false" />
+            <element signature="e#4460#4638#0#HTML" expanded="false" />
+            <element signature="e#4690#4733#0#HTML" expanded="false" />
+            <element signature="e#4787#4877#0#HTML" expanded="false" />
+            <element signature="e#4933#4972#0#HTML" expanded="false" />
+            <element signature="e#5034#5453#0#HTML" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#50285#50291#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#a#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#a#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#a#0;n#div#2;n#div#0;n#div#1;n#div#1;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="87" column="30" lean-forward="true" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#2;n#div#3;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/shops.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding />
         </state>
       </provider>

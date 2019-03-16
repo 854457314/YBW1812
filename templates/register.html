@@ -182,7 +182,8 @@
 				</a>
 			</div>
 		</div>
-		<div class="g-mn">
+		<form class="g-mn" action="{% url 'ybw:register' %}"  method="post">
+            {% csrf_token %}
 			<div class="g-mn-left">
 				<ul class="m-flow">
 					<li>
@@ -204,7 +205,8 @@
 							<label>*</label>
 							用户名:
 						</span>
-						<input value="" type="text" name="username" class="text_form" />
+{#                        <input tytype="text" name="username" class="text_form" >#}
+                        <input type="text" name="username" class="text_form">
 						<span id="user" class="TS">由6-50位字符，支持中文、数字及“-”组合。</span>
 					</li>	
 					<li>
@@ -212,7 +214,7 @@
 							<label>*</label>
 							登陆密码:
 						</span>
-						<input value="" type="password" name="username" class="password_form" />
+						<input type="password" name="password" class="password_form" />
 						<span id="PassWord" class="TS">密码为6-20个字符，请用英文加数字或下划线组合！</span>
 						<div class="password_style">
 							安全程度:
@@ -235,7 +237,7 @@
 							验证码:
 						</span>
 						<!--<input value="" type="text" name="username" class="Captcha_form" /><span id="idcode"></span>-->
-						<input type="text" id ="Txtidcode" class ="Captcha_form"><span id="idcode"></span>
+						<input type="text" name="code" id ="Txtidcode" class ="Captcha_form"><span id="idcode"></span>
 
 						<span class="TS">请输入验证码，区分大小写!</span>
 					</li>
@@ -245,16 +247,18 @@
 						 <a href="">《用户使用协议》</a>
 					</li>
 					<li class="XieYi">
+
 						<input type="submit" class="Register" value="立即注册" />
-					</li>
+
+                    </li>
 				</ul>
-			</div>
+            </div>
+        </form>
 			<div class="g-mn-right">
 				<h3>已有账号</h3>
 				<p>(可用试客联盟/众划算帐号登录)</p>
 				<a href="{% url 'ybw:land' %}">马上登录</a>
 			</div>
-		</div>
 		<div class="g-ft">
 			<div class="g-ft-wrap">
 				<div class="g-ft-nav">
@@ -265,6 +269,7 @@
                 	<p class="copyRight">copyright 2006-2015 yibanmall.com 版权所有 桂ICP备15008717号<img style="height: 20px; width: 20px;" src="{% static 'img/20160910141721.JPG' %}" /> <a target="_blank" href="" class="f-record">桂公网安备 45010702000034号</a></p>
 				</div>
 			</div>
-		</div>
+        </div>
+        </div>
 	</body>
 </html>

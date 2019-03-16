@@ -124,7 +124,7 @@
 					<a href="#"></a>
                	</div>
 				<div class="m-box">
-					<form id="loginForm" method="post">
+					<form id="loginForm"  action="{% url 'ybw:land' %}" method="post">
 						<div class="msg-box">
 							<span class="I-ico" style="position: absolute;left: 6px; top: 5px;color: red;">&#xe678;</span>
 							<div class="msg-error">请输入用户名，密码！</div>
@@ -149,8 +149,10 @@
 								</div>
 							</li>
 							<li>
+                                <a href="{% url 'ybw:index' %}">
 								<input type="button" name="button" id="J_submit" class="login-btn"  value="登  录"/>
-							</li>
+							    </a>
+                            </li>
 							<li style="color: white; margin-bottom: 10px;">还没有账号？<a href="{% url 'ybw:register' %}" class="reg">立即注册</a></li>
 							
 						</ul>

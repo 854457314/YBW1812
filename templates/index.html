@@ -1350,8 +1350,8 @@
         }
 
         .m-content-con1 .m-content-wrapx1 .m-content-man img {
-            width: 289px;
-            height: 202px;
+            width: 238px;
+            height: 137px;
         }
 
         .m-content-con1 .m-content-wrapx1 .m-content-child img {
@@ -1606,7 +1606,7 @@
                 <a href="{% url 'ybw:logout' %}">[退出登录]</a>
                 </p>
             {% else %}
-                <a href="{% url 'ybw:register' %}" class="register">[登录]</a>
+                <a href="{% url 'ybw:land' %}" class="land">[登录]</a>
             {% endif %}
                <a href="{% url 'ybw:register' %}" class="register">[免费注册]</a>
             </div>
@@ -1623,8 +1623,7 @@
                 <a href="#" target="_blank">帮助中心</a>
             </div>
         </div>
-    </div>
-
+</div>
 
     <div class="hd">
         <!--搜索栏-->
@@ -1797,7 +1796,7 @@
                             </dt>
                             <dd style="width:auto;height: 66px;">
                                 <a href="#" style="padding: 0px 8px 0px 10px;">连衣裙</a>
-                                <a href="#">针织</a>
+                                <a hreuserf="#">针织</a>
                                 <a href="#">短裙</a>
                                 <a href="#">衬衫</a>
                                 <a href="#">小脚裤</a>
@@ -1872,27 +1871,6 @@
 </div>
 
 
-
-
-
-
-<!--头部轮播图-->
-<div class="m-con">
-{#    <div class="swiper-container" id="topSwiper"></div>#}
-{#    <div class="swiper-container">#}
-{#        <div class="swiper-wrapper">#}
-{#            <div class="swiper-slide" style="background-image:url(img/fade1.jpg)"></div>#}
-{#            <div class="swiper-slide" style="background-image:url(img/fade2.jpg)"></div>#}
-{#            <div class="swiper-slide" style="background-image:url(img/fade3.jpg)"></div>#}
-{#        </div>#}
-{#        <!-- Add Pagination -->#}
-{#        <div class="swiper-pagination swiper-pagination-white"></div>#}
-{#        <!-- Add Arrows -->#}
-{#        <div class="swiper-button-next swiper-button-white"></div>#}
-{#        <div class="swiper-button-prev swiper-button-white"></div>#}
-{#    </div>#}
-</div>
-
 </div>
 <div class="m-content-top">
     <div class="m-tt">
@@ -1955,7 +1933,7 @@
 {#                        </div>#}
 	        			<div class="DIV">
                             {% for shop in shops %}
-                                   <a href="{% url 'ybw:Shop' %}">
+                                   <a href="{% url 'ybw:detail' 1 %}">
                                     <img src="{{ shop.cart }}">
                                     <p>{{ shop.img }}</p>
                                     <p style="color: red;font-size: 16px">折扣价格:{{ shop.shop }}|{{ shop.old_price }}</p>
@@ -1965,17 +1943,18 @@
                         </div>
 	        			<div class="DIV">
                             {% for shop in shops %}
-                                  <a href="{% url 'ybw:Shop' %}">
+                                  <a href="{% url 'ybw:detail' 2 %}">
                                     <img src="{{ shop.cart }}">
                                     <p>{{ shop.img }}</p>
                                     <p style="color: red;font-size: 16px">折扣价格:{{ shop.shop }}|{{ shop.old_price }}</p>
-                                    <p style="color: black;font-size: 13px">原价:{{ shop.price }}</p>
-                                </a>
+                                    <p style="color: black;font-size: 13px">原价:{{ shop.old_price }}</p>
+                                  </a>
                             {% endfor %}
+                        <img src="{% static 'img/201602260137028067.jpg' %}" title="ROOM0404 2016夏季韩版新款连衣裙" class="￥181.00"/>#}
                         </div>
 	        			<div class="DIV">
                             {% for shop in shops %}
-                                   <a href="{% url 'ybw:Shop' %}">
+                                   <a href="{% url 'ybw:detail' 3 %}">
                                     <img src="{{ shop.cart }}">
                                     <p>{{ shop.img }}</p>
                                     <p style="color: red;font-size: 16px">折扣价格:{{ shop.shop }}|{{ shop.old_price }}</p>
@@ -2006,22 +1985,40 @@
         			<div class="DIVS">
 	        			<div class="DIV">
                         <div>
+                        <a href="{% url 'ybw:detail' 4  %}">
                             {% for mshop in mshops %}
                                 <img src="{{ mshop.cart }}">
+                                <p>{{ mshop.img }}</p>
+                                <p style="color: red;font-size: 16px">折扣价格:{{ mshop.shop }}|{{ mshop.old_price }}</p>
+                                <p style="color: black;font-size: 13px">原价:{{ mshop.price }}</p>
                             {% endfor %}
-                        </div>
+
+                        </a>
                         </div>
 	        			<div class="DIV">
                             <div>
+                            <a href="{% url 'ybw:detail' 5  %}">
                             {% for mshop in mshops %}
                                 <img src="{{ mshop.cart }}">
+                                <p>{{ mshop.img }}</p>
+                                <p style="color: red;font-size: 16px">折扣价格:{{ mshop.shop }}|{{ mshop.old_price }}</p>
+                                <p style="color: black;font-size: 13px">原价:{{ mshop.price }}</p>
                             {% endfor %}
+
+                        </a>
                             </div>
                         </div>
 	        			<div class="DIV">
                         <div>
+                           <a href="{% url 'ybw:detail' 6 %}">
                             {% for mshop in mshops %}
+                                <img src="{{ mshop.cart }}">
+                                <p>{{ mshop.img }}</p>
+                                <p style="color: red;font-size: 16px">折扣价格:{{ mshop.shop }}|{{ mshop.old_price }}</p>
+                                <p style="color: black;font-size: 13px">原价:{{ mshop.price }}</p>
                             {% endfor %}
+
+                        </a>
                         </div>
                         </div>
 	        			<div class="DIV">
@@ -2080,7 +2077,7 @@
     <div class="m-tt1">
         <div class="TT">
             <h2>百变风格馆</h2>
-            <div class="TTsmall">
+            <div class="TTsmall">ybw:Shop
                 <h4>每天时尚不重复</h4>
             </div>
         </div>

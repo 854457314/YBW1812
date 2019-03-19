@@ -10,5 +10,6 @@ urlpatterns = [
     url(r'^land/$',views.land,name='land'),
     url(r'^register/$',views.register,name='register'),
     url(r'^logout/$',views.logout,name='logout'),
-    url(r'^cart/$',views.cart,name='cart'),
+    url(r'^addcart/$',views.addcart,name='addcart'),
+    url(r'^generateorder/$',views.generateorder,name='generateorder'),
     ]

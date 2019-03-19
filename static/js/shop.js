@@ -74,6 +74,15 @@ $(function(){
 				_smallImg.mouseleave(function(){
 					_smallArea.hide(); //隐藏小区域
 				})
+
+
+	$('.Shop').window(innerWidth)
+	$('#login-i').click(function () {
+		// 设置cookie
+		 $cookie(back,'Shop',{expires:3,path:'/'})
+
+                window.open('/ybw/land/','_self')
+    })
 				
 					
 				

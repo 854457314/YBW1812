@@ -61,9 +61,9 @@
 	            		<a href="{% url 'ybw:index' %}" class="indexs">
 	            			<span class="I-ico" style="color: #f10582;">&#xe73d;</span> 衣扮网首页	
 	            		</a>
-	            		<a href="{% url 'ybw:land' %}" class="land">
-	            			[登录]
-	            		</a>
+	            		 <i id="login-i">
+	            			{{ user.username | default:'[登录]' }}
+	            		</i>
 	            		<a href="{% url 'ybw:register' %}" class="register">
 	            			[免费注册]
 	            		</a>

@@ -120,3 +120,18 @@ class  Cart(models.Model):
 
     class  Meta:
         db_table = 'Cart'
+
+
+class Order(models.Model):
+    user = models.ForeignKey(User)
+    createtime = models.DateTimeField(auto_now_add=True)
+    updatetime = models.DateTimeField(auto_now=True)
+    status = models.IntegerField(default=0)
+    # 订单号
+    identifier = models.CharField(max_length=256)
+
+
+class OrderModel(models.Model):
+    order = models.ForeignKey(Order)
+    goods = models.ForeignKey(Goods)
+    number = models.IntegerField()
